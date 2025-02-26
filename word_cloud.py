@@ -74,10 +74,10 @@ for key in sorted(words_dict.items(), key=lambda x:x[1], reverse=True):  # 先�
 
     color(color_list[count%15])     #為了詞雲美觀用: 讓顏色在 color_list 中循環選擇，使不同的單詞有不同的顏色。原turtle.color()
     
-    while True:             # 在(x = 正負200 , y = 正負200)內，隨機放置單詞
+    while True:                          # 設定詞雲顯示範圍在半徑=200的圓圈內
         x = random.uniform(-200, 200)    # 在 (-200, 200) 之間隨機選擇x和y的位子，讓單詞可以放在這個範圍內。
         y = random.uniform(-200, 200)
-        if x**2 + y**2 >= 200**2:        # 確保計算(x,y)與(0,0)的距離，超出設定的畫面範圍則重random一次
+        if x**2 + y**2 >= 200**2:        # 圓的標準方程式  =>  確保計算(x,y)與(0,0)的距離，超出設定的畫面範圍(圓圈)則重random一次
             continue
 
         font_size = int( 20*(1 + 4*(key[1]-45)/355))   # 根據該單詞出現的頻率，來設定字體大小。
