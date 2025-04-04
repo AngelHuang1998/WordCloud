@@ -33,4 +33,4 @@ python word_cloud.py
 ---
 
 📘 Source Text
-The input text long.txt is from Project Gutenberg, public domain.
+The input text `long.txt` is from [Project Gutenberg](https://www.gutenberg.org/ebooks/1526), public domain.
