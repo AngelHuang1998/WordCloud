@@ -4,12 +4,6 @@ This project generates a **word cloud** based on the play *Twelfth Night* by Wil
 
 ---
 
-## 📂 Project Structure
-📁 Job-Portal-Database-WordCloud/ │ ├── long.txt # Full text of "Twelfth Night" from Project Gutenberg ├── word_cloud.py # Main Python script that generates the word cloud ├── result.png # Screenshot of the resulting word cloud └── README.md # Project documentation
-
-
----
-
 ## 🐍 How It Works
 
 - The script reads the full text from `long.txt`.
