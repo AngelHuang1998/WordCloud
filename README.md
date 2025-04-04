@@ -29,8 +29,7 @@ Make sure you have Python installed, then:
 
 ```bash
 python word_cloud.py
-
----
+```
 
 📘**Source Text**  
 The input text `long.txt` is from [Project Gutenberg](https://www.gutenberg.org/ebooks/1526), public domain.
